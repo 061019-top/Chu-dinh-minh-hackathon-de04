@@ -1,0 +1,181 @@
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 24px 80px;
+
+}
+.header .title{
+    display: flex;
+}
+.header .title img{
+    position: relative;
+    top: 15px;
+}
+.header a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.header button{
+    background-color: #000000;
+    color: #fff;
+    font-weight: bold;
+    width: 135px;
+    height: 50px;
+    border-radius: 5px;
+
+
+}
+/* phan nav */
+.nav{
+    display: flex;
+    margin-left: 250px;
+}
+.nav .text-nav{
+    margin-top: 120px;
+    
+}
+.text-nav span{
+    font-size: 48px;
+}
+.text-nav .bold{
+    font-weight: bold;
+}
+.icon{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    left: 245px;
+    bottom: 50px;
+    
+}
+.my-skill{
+    text-align: center;
+    position: relative;
+    top: 15px;
+}
+.my-skill span{
+    font-size: 48px;
+}
+.my-skill .bold{
+    font-weight: bold;
+}
+.luachon .luachon-top{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+.luachon .luachon-botton{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+/* phan chan trang */
+.footer{
+    background-color: #000000;
+    color: #fff;
+}
+.line{
+    width: 1168px;
+    height: 192px;
+    border: 2px solid gray;
+    margin: 30px 230px;
+}
+.footer .footer-one{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 230px;
+}
+.footer .footer-one .footer-left{
+    display: flex;
+}
+.footer .footer-one .footer-left img{
+    position: relative;
+    top: 10px;
+}
+.footer .footer-one .footer-right{
+    position: relative;
+    top: 20px;
+}
+.footer .footer-text{
+    margin: 10px 230px;
+    position: relative;
+    bottom: 30px;
+}
+.footer .footer-end{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 230px;
+}
+.footer .footer-end .end{
+    display: flex;
+}
+.footer .footer-end .end img{
+    position: relative;
+    top: 15px;
+    width: 40px;
+    height: 40px;
+}
+.footer .footer-end .end-text{
+    position: relative;
+    top: 10px;
+}
+@media screen and (max-width:768px){
+    .contact span{
+        display: none;
+    }
+    .nav{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .img-nav{
+        position: relative;
+        right: 280px;
+    }
+    .nav .text-nav{
+        position: relative;
+        right: 40px;
+        bottom: 60px;
+    }
+    .luachon .luachon-top{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .luachon .luachon-top .hide{
+        display: none;
+    }
+    .luachon .luachon-top img{
+        width: 45%;
+    }
+    .luachon .luachon-botton{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .luachon .luachon-botton .hide{
+        display: none;
+    }
+    .luachon .luachon-botton img{
+        width: 45%;
+    }
+    .line{
+        width: 100%;
+        height: 20%;
+        position: relative;
+        right: 200px;
+    }
+    .end{
+        position: relative;
+        right: 150px;
+    }
+    .end-text{
+        position: relative;
+        left: 180px;
+        bottom: 10px;
+    }
+
+    
+}
